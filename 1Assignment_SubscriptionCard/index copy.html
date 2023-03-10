@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            background-color: rgb(0, 39, 72);
+        }
+
+        #container {
+            display: flex;
+            justify-content: space-evenly;
+            justify-content: center;
+            /* margin: 0px 0%; */
+
+        }
+
+        .box {
+            /* border: 2px solid; */
+            width: 25%;
+            /* height: 400px; */
+            padding: 30px 25px;
+            margin: 20px 15px;
+            border-radius: 15px;
+            box-sizing: border-box;
+            background-color: white;
+        }
+
+        .btn {
+            width: 100%;
+            height: 35px;
+            border-radius: 8px;
+            margin-top: 30px;
+            border: 2px solid rgb(182, 182, 182);
+            background-color: rgb(214, 214, 214);
+        }
+
+        .span {
+            font-size: 40px;
+        }
+
+        hr {
+            border: 1px solid rgb(188, 188, 188);
+        }
+
+        .i {
+            padding-right: 7px;
+            color: rgb(255, 157, 0);
+            background-color: white;
+        }
+
+        .h1 {
+            color: rgb(255, 157, 0);
+            background-color: white;
+
+            height: 65px;
+
+        }
+
+        h4 {
+            background-color: white;
+            height: 25px;
+        }
+
+        p {
+            background-color: white;
+        }
+
+        .div {
+            background-color: white;
+        }
+
+        .div span {
+            background-color: white;
+        }
+
+        #box2h1 {
+            color: dodgerblue;
+        }
+
+        .box2i {
+            color: dodgerblue;
+        }
+
+        #box3h1 {
+            color: rgba(21, 189, 80, 0.863);
+        }
+
+        .box3i {
+            color: rgba(21, 189, 80, 0.863);
+        }
+
+        #box2btn {
+            background-color: white;
+        }
+
+        #box3btn {
+            background-color: rgba(21, 189, 80, 0.863);
+            border: 0px;
+            color: white;
+        }
+
+        .p {
+            height: 70px;
+        }
+
+        /* Media queries */
+        @media screen and (max-width: 960px) {
+            #container {
+                flex-wrap: wrap;
+            }
+
+            .box {
+                width: 45%;
+                margin: 20px 20px;
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            .box {
+                width: 90%;
+            }
+
+            .btn {
+                margin-top: 20px;
+            }
+
+            .p {
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="box" id="box1">
+            <div class="div"><span class="span">$39</span>/month</div>
+            <h1 class="h1">Basic Licence</h1>
+
+            <p class="p box1p">Our goverment backed plan designed to keep your business legaly and secure</p>
+            <hr>
+            <h4><i class="i">✓ </i> Secure your customer usage</h4>
+            <h4><i class="i">✓ </i>View basic analytics</h4>
+            <h4><i class="i">✓ </i>Up to 350 customer profiles</h4>
+            <h4><i class="i">✓ </i>Custom network name</h4>
+            <button class="btn">Your current plan</button>
+        </div>
+
+        <div class="box" id="box2">
+            <div class="div"><span class="span">$55</span>/month</div>
+            <h1 class="h1" id="box2h1">Social Licence</h1>
+
+            <p class="p box2p">Unlimited anlaytics, plans, demographic insights.All you need to grow-up your business
+            </p>
+            <hr>
+            <h4><i class="i box2i">✓ </i> Add your own branding</h4>
+            <h4><i class="i box2i">✓ </i>View popularity analytics</h4>
+            <h4><i class="i box2i">✓ </i>Up to 1500 customer profiles</h4>
+            <h4><i class="i box2i">✓ </i>View demographic analytics</h4>
+
+            <button class="btn" id="box2btn">Upgrade to Social</button>
+        </div>
+
+        <div class="box" id="box3">
+            <div class="div"><span class="span">$99</span>/month</div>
+            <h1 class="h1" id="box3h1">Marketing Licence</h1>
+
+            <p class="p box3p">Unlock powerfull time-saving tools for creating email delivery and collecting marketing
+                data</p>
+            <hr>
+            <h4><i class="i box3i">✓ </i> Collet marketing data</h4>
+            <h4><i class="i box3i">✓ </i>Design your emails</h4>
+            <h4><i class="i box3i">✓ </i>Email campaigns & interactions</h4>
+            <h4><i class="i box3i">✓ </i>View your customer's progiles</h4>
+            <button class="btn" id="box3btn">Upgrade to Marketing</button>
+        </div>
+    </div>
+</body>
+
+</html>

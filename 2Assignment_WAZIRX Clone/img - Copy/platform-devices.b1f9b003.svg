@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="238px" height="143px" viewBox="0 0 238 143" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3">
+            <g id="configuration-2">
+                <g id="configuration">
+                    <path d="M205.621405,0 L24.8338017,0 C22.2558058,0 20,2.09904762 20,4.84380952 L20,126.264286 L210.294112,126.264286 L210.294112,4.84380952 C210.455207,2.09904762 208.199401,0 205.621405,0 Z" id="Path" fill="#048DFF" fill-rule="nonzero"></path>
+                    <rect id="Rectangle" fill="#C4E9FA" fill-rule="nonzero" x="26" y="6" width="178.697996" height="114.213116" rx="2"></rect>
+                    <circle id="Oval" fill="#02AFEB" cx="114.5" cy="63.5" r="18.5"></circle>
+                    <path d="M0,126 C0,132.29647 10.4735537,137.412381 23.3640083,137.412381 L206.085227,137.412381 C218.975682,137.412381 229.449236,132.29647 229.449236,126 L0,126 L0,126 Z" id="Path" fill="#0471F6" fill-rule="nonzero"></path>
+                    <g id="Group" transform="translate(95.433884, 125.714286)" fill="#02AFEB" fill-rule="nonzero">
+                        <path d="M0,0 C0,1.9852436 2.54902257,3.588571 5.70442685,3.588571 L33.9845811,3.588571 C37.1403434,3.588571 39.689008,1.98501841 39.689008,0 L0,0 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-2" transform="translate(188.000000, 53.000000)">
+                <path d="M44.6796875,90 L5.3203125,90 C2.3828125,90 0,87.6336207 0,84.7163793 L0,5.28362069 C0,2.36637931 2.3828125,0 5.3203125,0 L44.678125,0 C47.6171875,0 50,2.36637931 50,5.28362069 L50,84.7148276 C50,87.6336207 47.6171875,90 44.6796875,90 Z" id="Path" fill="#0050B2" fill-rule="nonzero"></path>
+                <rect id="Rectangle" fill="#C4E9FA" fill-rule="nonzero" x="4" y="4" width="42" height="82" rx="3"></rect>
+                <circle id="Oval-Copy" fill="#02AFEB" cx="25" cy="46" r="11"></circle>
+                <path d="M14,3 L35,3 L35,5 C35,6.1045695 34.1045695,7 33,7 L16,7 C14.8954305,7 14,6.1045695 14,5 L14,3 Z" id="Rectangle" fill="#0050B2" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscription Plans</title>
+  <style>
+    /* Base styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    /* Subscription card styles */
+    .subscription-card {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+      padding: 20px;
+      text-align: center;
+      width: 30%;
+      display: inline-block;
+    }
+
+    .subscription-card h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .subscription-card p {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .subscription-card button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+
+    /* Responsive styles */
+    @media only screen and (max-width: 768px) {
+      .subscription-card {
+        width: 45%;
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      .subscription-card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Choose a plan that works for you</h1>
+    <div class="subscription-card">
+      <h2>Basic Plan</h2>
+      <p>$9.99/month</p>
+      <p>Access to basic features</p>
+      <button>Subscribe Now</button>
+    </div>
+    <div class="subscription-card">
+      <h2>Premium Plan</h2>
+      <p>$19.99/month</p>
+      <p>Access to premium features</p>
+      <button>Subscribe Now</button>
+    </div>
+    <div class="subscription-card">
+      <h2>Pro Plan</h2>
+      <p>$29.99/month</p>
+      <p>Access to all features</p>
+      <button>Subscribe Now</button>
+    </div>
+  </div>
+</body>
+</html>
