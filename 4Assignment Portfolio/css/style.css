@@ -32,6 +32,18 @@
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
 }
+:root {
+    --color-body: #ffffff;
+    --color-heading: #fefff8;
+    --color-base: #2f363d;
+    --color-base2: #24292e;
+    /* --color-brand: #39ace7; */
+    --color-brand: #0066ff;
+    --color-brand2: #39ace7;
+    /* --color-brand2: #1573ff; */
+    --sidbar-width: 240px;
+    --font-base: "Bai Jamjuree";
+}
 /* :root {
     --color-body: #b6cbce;
     --color-heading: #eef3db;
@@ -79,7 +91,7 @@ img {
 .logo {
     width: 65%;
     margin: 0px 3rem;
-    border: 5px solid var(--color-brand2);
+    border: 5px solid var(--color-brand);
     /* padding: 0px; */
 }
 
