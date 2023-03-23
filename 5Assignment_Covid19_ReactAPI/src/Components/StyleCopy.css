@@ -1,0 +1,199 @@
+* {
+    /* background-color: royalblue; */
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: var(--base_color31);
+}
+
+:root {
+    --color1: #e6891e;
+    --base_color: #101827;
+    --base_color1: #374151;
+    --base_color3: #969eaa;
+    --base_color31: #c7cbd1;
+    --base_color4: #0d44ba;
+    --base_color5: #1956db;
+    /* --heading_color1: #bc0e4c;
+    --heading_color3: #ffc501;
+    --heading_color2: #3a6b34;
+    --heading_color1: #c71050;
+    --heading_color3: #f6be04;
+    --heading_color2: #40a233; */
+}
+
+body {
+    background-color: var(--base_color);
+    width: 100vw;
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+/* ------------India---------------- */
+
+.india {
+    margin-bottom: 10px;
+    border: 2px solid var(--base_color1);
+}
+
+.india h1 {
+    background-color: var(--base_color1);
+    padding: 5px 0px;
+}
+
+.india_cases {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+}
+
+.india_cases div {
+
+    border-radius: 10px;
+    margin: 10px 10px;
+    padding: 11px 0px;
+    width: 24rem;
+    background-color: #374151;
+    border: 1px solid var(--base_color1);
+}
+
+.main_div_h1 {
+    /* background-color: var(--base_color4);
+    color: var(--base_color31);
+    font-size: 2.3rem;
+    padding: 10px 0px; */
+    display: none;
+}
+
+/* .india_cases div:nth-child(1) {
+    background-color: var(--heading_color3);
+}
+
+.india_cases div:nth-child(2) {
+    background-color: var(--heading_color2);
+} */
+
+.india_cases div:nth-child(3) {
+    /* background-color: var(--heading_color1); */
+}
+
+/* .india_cases div:nth-child(1) h2,
+.india_cases div:nth-child(1) p {
+    color: black;
+}
+
+.india_cases div:nth-child(2) h2,
+.india_cases div:nth-child(2) p {
+    color: black;
+}
+
+.india_cases div:nth-child(3) h2,
+.india_cases div:nth-child(3) p {
+    color: black;
+} */
+
+/* -------------State Cases-------------- */
+
+.state_cases {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.state_card {
+    border: 1.5px solid var(--base_color1);
+    margin: 10px 10px;
+    width: 23rem;
+    border-radius: 10px;
+    background-color: var(--base_color1);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.state_card:hover {
+    box-shadow: 0px 0px 18px 3px rgba(0, 0, 0, 1);
+
+    border: none;
+}
+
+.confirmed_cases h3 {
+    color: var(--heading_color3);
+}
+
+.discharged h3 {
+    color: var(--heading_color2);
+}
+
+.deaths h3 {
+    color: var(--heading_color1);
+}
+
+.state_div {
+    height: 3.55rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px 0px;
+}
+
+.state_name {
+    padding: 0px 0px;
+    background-color: var(--base_color4);
+    box-shadow: none;
+}
+
+/* -------------Search---------------- */
+
+input {
+    padding: 5px 8px;
+    background-color: var(--base_color1);
+    color: var(--base_color31);
+    border: none;
+    text-align: left;
+    width: 17rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    /* outline: none; */
+    border: 2px solid var(--base_color3);
+    margin: 15px 0px;
+}
+
+input::placeholder {
+    color: var(--base_color31);
+}
+
+
+#hr {
+    border: 0.01rem solid var(--base_color3);
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .india h1 {
+        padding: 3px 0px;
+        font-size: 1.6rem;
+    }
+
+    .main_div_h1 {
+        font-size: 2rem;
+        padding: 5px 0px;
+    }
+
+    .india_cases div {
+        margin-top: 8px;
+        padding: 4px 0px;
+        width: 20rem;
+    }
+
+    .state_card {
+        width: 22rem;
+    }
+}
