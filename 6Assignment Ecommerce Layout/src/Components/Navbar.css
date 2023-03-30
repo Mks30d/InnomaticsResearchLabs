@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* width: 100%; */
+}
+
+:root {
+    --heading-color: black;
+    --primary-color: #ff7e1b;
+    --secondary-color: #69707d;
+}
+
+#first_nav_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#navbar {
+    /* margin: 10px 10rem; */
+    width: 75%;
+    /* border: 1px solid; */
+    padding: 1.5rem 0px;
+    border-bottom: 1px solid #e1e1e1;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#logo {
+    height: 15px;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu_items li {
+    margin-left: 10%;
+    color: var(--secondary-color);
+}
+.menu_items li:hover{
+    color: var(--primary-color);
+}
+
+#right_part {
+    display: flex;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    align-items: center;
+    margin: -26px 0px;
+}
+
+#right_part img {
+    height: 28%;
+
+}
+
+#right_part #avatar {
+    height: 55%;
+    margin-left: 20px;
+}
+
+#menu_items_media {
+    display: none;
+}
+
+/* ============================================== */
+
+@media screen and (max-width:820px) {
+    .menu_items {
+        display: none !important;
+    }
+    
+    #menu_items_media {
+        display: flex !important;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        width: 20rem;
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+    .menu_items li {
+        margin: 3%;
+        font-weight: 700;
+    }
+
+    #navbar {
+        border-bottom: 0px;
+        padding-top: 1.5rem;
+        padding-bottom: 8px;
+        justify-content: space-between;
+    }
+    #right_part {
+        position: relative;
+    }
+    #right_part #avatar {
+        height: 30px;
+    }
+
+}
+
+@media screen and (max-width:420px) {
+
+    #menu_items_media {
+        display: flex !important;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        font-size: 13px;
+        width: 20rem;
+        border-bottom: 1px solid #e1e1e1;
+    }
+
+    .menu_items li {
+        margin: 3%;
+        font-weight: 700;
+    }
+
+    #navbar {
+        border-bottom: 0px;
+        padding-top: 1.5rem;
+        padding-bottom: 8px;
+    }
+
+    #add_to_cart {
+        width: 7rem;
+    }
+
+    #plus_minus {
+        width: 5rem;
+    }
+
+    #main_div {
+        margin-top: 25px;
+    }
+
+}
