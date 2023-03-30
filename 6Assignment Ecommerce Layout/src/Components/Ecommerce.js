@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Ecommerce.css";
 import product1 from "./images/image-product-1.jpg";
 import product2 from "./images/image-product-2.jpg";
@@ -10,6 +10,20 @@ import cart from "./images/icon-cart.svg";
 
 
 function Ecommerce(props) {
+
+    let [num, setNum] = useState(1);
+
+    function decrement() {
+        if (num <= 1) {
+            setNum(num = 1)
+        }
+        else {
+            setNum(--num)
+        }
+    }
+    function increment() {
+        setNum(++num)
+    }
     return (
         <div id='first_div'>
 
@@ -50,9 +64,17 @@ function Ecommerce(props) {
                     </div>
                     <div id='cart_item'>
                         <div id='plus_minus' className='cart_common'>
-                            <img id='minus' src={minus} />
-                            <p>0</p>
-                            <img id='plus' src={plus} />
+                            {/* <img id='minus' src={minus} /> */}
+                            <button onClick={decrement} id='btn_minus'>
+                                <img id='minus' src={minus} />
+                            </button>
+
+                            <p>{num}</p>
+
+                            {/* <img id='plus' src={plus} /> */}
+                            <button onClick={increment} id='btn_plus'>
+                                <img id='plus' src={plus} />
+                            </button>
                         </div>
                         <div id='add_to_cart' className='cart_common'>
                             <img src={cart} />
