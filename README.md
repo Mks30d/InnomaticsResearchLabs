@@ -11,6 +11,6 @@ Innomatics Research Labs Internship Projects
 
 5. [Covid-19 Tracker](https://covid19reactapi.netlify.app/)
 
-6. [Ecommerce Layout] (https://ecommerce06.netlify.app/)
+6. [Ecommerce Layout](https://ecommerce06.netlify.app/)
 
 
