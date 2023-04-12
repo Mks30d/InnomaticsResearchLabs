@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#app_allnotes_div {
+  /* border: 1px solid; */
+  width: 78%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/* ================================================================== */
+/* @media (max-width:800px) { */
+  @media only screen and (max-width: 800px){
+  body{
+    /* background-color: #61dafb !important; */
+  }
+  #app_main_div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #notesform_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: cn;
+    align-items: center;
+  }
+
+  #app_allnotes_div {
+    width: auto;
+  }
+
+  #allnotes_main_div {
+    margin-top: 15px !important;
+  }  
+  h1 {
+    /* margin: 5px 10px !important; */
+}
+}
+
+@media only screen and (max-width:430px) {
+  .add_card {
+    width: 20rem !important;
+    /* margin-top: 10px; */
+}
+.allnotes_div {
+  width: 20rem !important;
+}
+h1 {
+  /* margin: 5px 10px !important; */
+}
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

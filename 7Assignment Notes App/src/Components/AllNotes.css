@@ -1,0 +1,102 @@
+body{
+    
+}
+#app_main_div{
+    display: flex;
+}
+#allnotes_main_div{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+    margin-top: 62px;
+}
+
+.allnotes_div{
+    width: 22rem;
+    overflow: hidden;
+    border: 0.1px solid;
+    margin: 15px 9px;
+    word-wrap: normal;
+    
+    border: 0.1px solid var(--base_color1);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 4px 10px;
+}
+
+.title{
+    word-wrap: break-word;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 10px 0px;
+    padding-top: 4px;
+}
+
+.content{
+    word-wrap: break-word;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+
+.add_card {
+    background-color: initial;
+    border: 1.5px solid #374151;
+    border: .1px solid var(--base_color1);
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    overflow: hidden;
+    width: 22rem;
+  }
+  #add_card{
+    width: 22rem;
+    /* margin-top: 10px !important; */
+  }
+
+  /* #add_card, .add_card {
+    width: 22rem;
+    margin-top: 10px;
+} */
+
+.input_text {
+    padding: 6px 7px;
+    padding: 10px 13px;
+    margin: 0px 0px;
+    border: 0px;
+    outline: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    /* background-color: var(--base_color1); */
+    background: transparent;
+    color: var(--base_color31);
+  }
+  
+  .input_textarea {
+    height: 80px;
+    padding: 4px 7px;
+    padding: 0px 13px;
+    font-family: sans-serif;
+    border: 0px;
+    outline: 0px;
+    background: transparent;
+    color: var(--base_color31);
+    width: 100%;
+    font-size: 14px;
+    resize: none;
+    box-sizing: border-box;
+  }
+  
+  .btn_submit {
+    margin: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 2px 0px;
+    width: 100%;
+  }
+
+  
