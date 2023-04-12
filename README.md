@@ -13,4 +13,4 @@ Innomatics Research Labs Internship Projects
 
 6. [Ecommerce Layout](https://ecommerce06.netlify.app/)
 
-
+7. [Notes App](https://notesapp06.netlify.app/)
