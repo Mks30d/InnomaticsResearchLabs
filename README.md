@@ -9,8 +9,8 @@ Innomatics Research Labs Internship Projects
 
 4. [Portfolio](https://mksharma.netlify.app/)
 
-5. [Covid-19 Tracker](https://covid19reactapi.netlify.app/)
+5. [Covid-19 Tracker App](https://covid19reactapi.netlify.app/)
 
 6. [Ecommerce Layout](https://ecommerce06.netlify.app/)
 
-7. [Notes App](https://notesapp06.netlify.app/)
+7. [Notes Taking App](https://notesapp06.netlify.app/)
