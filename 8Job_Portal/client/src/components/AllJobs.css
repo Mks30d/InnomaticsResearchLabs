@@ -1,0 +1,22 @@
+#alljobs{
+    /* border: 1px solid red; */
+}
+.allJobsCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* flex-direction: column-reverse; */
+}
+.JobsCard{
+    width: 250px;
+    border: 1px solid;
+    margin: 5px 0px;
+}
+.jobDetails{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h5{
+    margin: 8px;
+}
