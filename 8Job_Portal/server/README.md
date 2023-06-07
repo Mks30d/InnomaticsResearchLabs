@@ -1,2 +1,2 @@
-To start use commands:
+To start use command:
 npm start
