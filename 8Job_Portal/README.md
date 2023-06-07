@@ -1,3 +1,3 @@
-To start use command:
+To start use command (for both client and server):
 
-npm start
+npm start 
